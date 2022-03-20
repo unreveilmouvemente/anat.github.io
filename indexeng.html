@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <meta charset = "UTF-8">
+
+        <title>Un Réveil Mouvementé</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li id="logo"><a href="#">Un Réveil Mouvementé</a></li>
+                    <li><a href="index.html">French</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#lien">Download the game</a></li>
+                    <li><a href="#groupe">Members of the team</a></li>
+                    <li><a href="#presentation">Gameplay</a></li>
+                </ul>
+            </nav>
+            <div id="imagePrincipale">
+                <h1>Un Réveil Mouvementé</h1>
+                <div id="premierTrait"></div>
+                <h3>S2 project of the ANAT team</h3>
+            </div>
+
+        </header>
+        <section id="presentation">
+            <div>
+                <h2>Why are we developing a game?</h2>
+                <p id="texteIntro">We are four students at EPITA Toulouse, 
+                    and this school requires the realization of a group project over a period of 6 months, 
+                    with a presentation at the end of the year. As we got along well, we decided to form the ANAT group, 
+                    and to develop our own video game. This is how "Un réveil mouvementé" was born, 
+                    and we hope with all our heart that our project will give you a good time. </p>
+            </div>
+            <div>
+                <h2>Plot of the adventure</h2>
+                <p id="texteJeu">Our game features 2D puzzle, action and adventure gameplay. 
+                    When the game starts, you wake up on a beach, without knowing where you are. 
+                    Soon, you will have to collect information and solve puzzles to progress. 
+                    After learning about the place where you have landed, 
+                    you will be confronted with different monsters and traps that await you in the dark...</p>
+            </div>
+            <div id="prestations">
+                <div class="imagesPrestations">
+                    <h4>EPITA</h4>
+                    <a href="https://www.epita.fr"><img src="photos/Epita.png" alt="logo EPITA"></a>
+                </div>
+                <div class="imagesPrestations">
+                    <h4>Graphics</h4>
+                    <a href="https://opengameart.org"><img src="photos/menu.png" alt="menu du jeu"></a>
+                </div>
+                <div class="imagesPrestations">
+                    <h4>Musics</h4>
+                    <a href="https://soundcloud.com/akuserusama/sets/projet-anat"><img src="photos/soundcloud.jpg" alt="logo SoundCloud"></a>
+                </div>
+            </div>
+        </section>
+        <section id="groupe">
+            <h2>Members of the ANAT team</h2>
+            <ul>
+                <li id="Axel">
+                    <p id="nom">Axel Codron</p>
+                    <p id="texteGroupe">Like the other members of the group, I am a student at EPITA. 
+                        I chose this branch because the potential of creation and adaptation is at the heart of the discipline, 
+                        and this is what attracts me to computer science. I was chosen as group leader for this project. 
+                        Being passionate about music in my free time, it is quite natural that I also proposed myself as 
+                        sound designer and composer of the game's music. I am also in charge of the creation of the character inventory, 
+                        the interactions with the game objects and the website you are currently using.</p>
+                </li>
+                <li id="Amandine">
+                    <p id="nom">Amandine Piganiol</p>
+                    <p id="texteGroupe2">My name is Amandine Piganiol and I am a student at Epita. 
+                        I have a brother who studied computer science and made me want to get into it. 
+                        In this project, I'm in charge of the creation of the whole map and the 
+                        transitions between the different scenes, as well as the organization of the game.</p>
+                </li>
+                <li id="Nicolas">
+                    <p id="nom">Nicolas Puffay</p>
+                    <p id="texteGroupe">My name is Nicolas Puffay, I am also a student at EPITA.
+                        I'm interested in computer science since I was a kid, 
+                        especially in development and cybersecurity. In this project, 
+                        I'm in charge of creating the characters, their animations, the multiplayer mode and the different menus.</p>
+                </li>
+                <li id="Thomas">
+                    <p id="nom">Thomas Petel</p>
+                    <p id="texteGroupe2">I am a 1st year student at the EPITA school of computer science. 
+                        I have been passionate since I was a child about new technologies, advances and discoveries in this field. 
+                        That's what motivated me to do these studies. In this project, 
+                        I'm in charge of the creation of the artificial intelligence of the enemies of the game, 
+                        as well as the one of the end boss. I will also have to manage the concept of damage in collaboration with Nicolas.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="lien">
+            <h2>Download the Game</h2>
+            <p>To download the game, click on the button below, unzip the rar file into a folder, and click on "launcher".</p>
+            <a href="https://download1476.mediafire.com/tjouzjinzuig/7wce71a58o8u4fe/launcher.zip"><p id="download">Un Réveil Mouvementé</p></a>
+        </section>
+        <footer>
+            <div class="container">
+                <h2 id="contact">Do not hesitate to give feedback for the team!</h2>
+                <form action="https://formspree.io/f/xayajdrd" method="POST" id="my-form">
+                   <div class="form-group">
+                      <label for="firstName">First Name</label>
+                       <input type="text" id="firstName" name="firstName">
+                   </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="status"></div>
+            <div id="deuxiemeTrait"></div>
+                <div id="copyrightEtIcons">
+                    <div id="copyright">
+                        <span>© ANAT team 2021</span>
+                    </div>
+                    <div id="icons">
+                        <a href="https://www.instagram.com/unreveilmouvemente"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./main.js"></script>
+    </body>
+</html>
